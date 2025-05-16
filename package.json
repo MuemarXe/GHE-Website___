@@ -6,7 +6,9 @@
     "build": "tsc -b && vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+  "vercel-build": "apt-get update && apt-get install -y libuuid1 && npm run build"
+
   },
   "dependencies": {
     "@webstudio-is/image": "0.219.0",
