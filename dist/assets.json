@@ -1,0 +1,60 @@
+{
+  "_app_generated_index-6937cd5a.BzoQi7Bn.css": {
+    "file": "assets/static/app_generated_index-6937cd5a.BzoQi7Bn.css",
+    "src": "_app_generated_index-6937cd5a.BzoQi7Bn.css"
+  },
+  "_chunk-BqbgP9hy.js": {
+    "file": "assets/chunks/chunk-BqbgP9hy.js",
+    "name": "constants"
+  },
+  "node_modules/vike/dist/esm/client/server-routing-runtime/entry.js": {
+    "file": "assets/entries/entry-server-routing.CCrI0YwE.js",
+    "name": "entries/entry-server-routing",
+    "src": "node_modules/vike/dist/esm/client/server-routing-runtime/entry.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "virtual:vike:pageConfigValuesAll:client:/pages/credits",
+      "virtual:vike:pageConfigValuesAll:client:/pages/index",
+      "virtual:vike:pageConfigValuesAll:client:/pages/style-guide"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/pages/credits": {
+    "file": "assets/entries/pages_credits.CSEyefAL.js",
+    "name": "entries/pages/credits",
+    "src": "virtual:vike:pageConfigValuesAll:client:/pages/credits",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BqbgP9hy.js"
+    ],
+    "css": [
+      "assets/static/app_generated_index-6937cd5a.BzoQi7Bn.css"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/pages/index": {
+    "file": "assets/entries/pages_index.D93QaBHB.js",
+    "name": "entries/pages/index",
+    "src": "virtual:vike:pageConfigValuesAll:client:/pages/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BqbgP9hy.js"
+    ],
+    "css": [
+      "assets/static/app_generated_index-6937cd5a.BzoQi7Bn.css"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/pages/style-guide": {
+    "file": "assets/entries/pages_style-guide.B7gHG7BA.js",
+    "name": "entries/pages/style-guide",
+    "src": "virtual:vike:pageConfigValuesAll:client:/pages/style-guide",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-BqbgP9hy.js"
+    ],
+    "css": [
+      "assets/static/app_generated_index-6937cd5a.BzoQi7Bn.css"
+    ]
+  }
+}
