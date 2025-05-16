@@ -10,6 +10,7 @@ export default defineConfig({
   ssr: {
     resolve: {
       conditions: ["node", "development|production"],
+      base: process.env.VITE_BASE_PATH || "/react-vite-deploy",
     },
   },
 });
