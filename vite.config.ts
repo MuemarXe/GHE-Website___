@@ -4,7 +4,7 @@ import vike from "vike/plugin";
 
 export default defineConfig({
   plugins: [react(), vike({ prerender: true })],
-  base: process.env.VITE_BASE_PATH || "/",
+  base: process.env.VITE_BASE_PATH || "/GHE-Website___",
   resolve: {
     conditions: ["browser", "development|production"],
     
